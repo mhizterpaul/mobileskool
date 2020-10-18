@@ -1,0 +1,266 @@
+/*body style*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+h3{
+	margin-bottom: 30px;
+}
+*{
+	box-sizing: border-box;
+}
+
+
+/*	HEADER	*/
+
+header .bar{
+	padding: 0px;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 10px 10px;
+}
+/*#E33E5C  #F9AB49*/
+nav{
+	display: none;
+	position: fixed;
+	left: 0px;
+	height: 100%;
+	background-color: #eee;
+	z-index: 2;
+	top: 0px;
+	width: 30%;
+	text-align: center;
+	padding: 40px 10px;
+}
+
+nav a:link{
+	color: #E33E5C;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+nav a:visited{
+	color: #E33E5C;
+}
+
+nav a:hover{
+	font-weight: 600;
+}
+nav li{
+	margin: 20px auto;
+}
+nav a:active{
+	color: #E33E5C;
+	text-decoration: none;
+}
+
+
+.menuBar{
+	border: 0px;
+	background-color: transparent;
+}
+.menuBar:hover{
+	background-color: #E33E5C;
+}
+.nav-course:link{
+	color: #737374;
+	text-decoration: none;
+}
+
+.nav-course:visited{
+	color: #737374;
+}
+.nav-course:hover{
+	color: #E33E5C;
+}
+.nav-course{
+	font-size: 20px;
+}
+#home-banner{
+	background-color: #070D59;
+	padding: 160px 10px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background-1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#home-banner h1{
+	color: orange;
+	text-shadow: 0px 2px 0px #fff;
+}
+#home-banner p{
+	color: #fff;
+}
+a.cta1{
+	color: #fff;
+	padding: 10px 30px;
+	border: 3px solid #E33E5C;
+	border-radius: 0px;
+	background-color: #E33E5C;
+	font-size: 20px;
+}
+
+a.cta1:hover{
+	background-color: #fff;
+	color: #E33E5C;
+}
+
+a.cta2{
+	color: #E33E5C;
+	border: 3px solid #E33E5C;
+	border-radius: 0px;
+	padding: 10px 30px;
+	background-color: #fff;
+	font-size: 20px;
+}
+a.cta2:hover{
+	background-color: #E33E5C;
+	color: #fff;
+}
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 15fce4387c3d2d63521e194c1d57155cc3c39abf
+
+.weDo section{
+	padding-top: 80px;
+}
+
+.weDo section h2{
+	border-left: 3px solid  #F9AB49;
+	padding-left: 30px;
+	color: #070D59;
+}
+
+.weDo section p{
+	margin: 40px 0px;
+	font-size: 30px;
+}
+.weDo .Banner span{
+	color: #ff6015;
+}
+
+.weDo img{
+	width: 95%;
+	display: block;
+	margin: auto;
+}
+.weDo .writeups{
+	padding: 20px 30px;
+}
+
+.why-join{
+	background-color: #F9FBFE;
+}
+
+.ready{
+	text-align: center;
+}
+
+/* #F9FBFE */
+.ready a{
+	margin: 10px;
+}
+
+.ready h2{
+	color: #070D59;
+}
+.ready p{
+	font-size: 30px;
+}
+article{
+	padding: 50px  0px 60px;
+}
+
+footer{
+	background-color: #070D59;
+	text-align: center;
+	padding: 30px 0px 10px;
+}
+
+footer ul li a{
+	font-size: 25px;
+}
+
+footer ul .st-bar::after{
+	content: "|";
+	color: #fff;
+	margin-left: 30px;
+}
+footer .social i{
+	font-size: 30px;
+}
+
+footer .social a{
+	margin-left: 15px;
+}
+
+p{
+	color: #737374;
+}
+
+footer a:link{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+footer a:visited{
+	color: #fff;
+}
+
+footer a:hover{
+	color: #E33E5C;
+}
+
+footer a:active{
+	color: #fff;
+}
+footer section{
+	margin-top: 20px;
+}
+
+.navigate .fa-user{
+	color: #fff;
+	background-color: #070D59;
+	padding: 10px 10px;
+	font-size: 20px;
+	border-radius: 100px;
+}
+.navigate .fa-user:hover{
+	color: #070D59;
+	background-color: #E33E5C;
+}
+
+@media only screen and (max-width: 769px) {
+	nav{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.navigate .nav-course, .navigate .menuBar{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.brand .logo{
+		width: 80px;
+	}
+}
+<<<<<<< HEAD
+
+@media only screen and (max-width: 463px) {
+	a.cta2, a.cta1{
+	
+	padding: 8px 20px;
+	font-size: 16px;
+}
+}
+=======
+>>>>>>> 15fce4387c3d2d63521e194c1d57155cc3c39abf
