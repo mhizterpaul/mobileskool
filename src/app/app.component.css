@@ -82,7 +82,7 @@ nav a:active{
 #home-banner{
 	background-color: #070D59;
 	padding: 160px 10px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background-1.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/background-1.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -121,10 +121,6 @@ a.cta2:hover{
 	color: #fff;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 15fce4387c3d2d63521e194c1d57155cc3c39abf
 
 .weDo section{
 	padding-top: 80px;
@@ -253,7 +249,6 @@ footer section{
 		width: 80px;
 	}
 }
-<<<<<<< HEAD
 
 @media only screen and (max-width: 463px) {
 	a.cta2, a.cta1{
@@ -262,5 +257,3 @@ footer section{
 	font-size: 16px;
 }
 }
-=======
->>>>>>> 15fce4387c3d2d63521e194c1d57155cc3c39abf
