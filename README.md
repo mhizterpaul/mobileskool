@@ -1,6 +1,14 @@
-# Mobileskool
+# Mobileskool GETTING STARTED
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+* clone the project: `git clone https://github.com/mhizterpaul/mobileskool.git`
+* cd into the directory and run `npm install`
+* after installation, start the development server
+
+
+
+
+
 
 ## Development server
 
